@@ -1,0 +1,12 @@
+{
+  "name": "@happy/shared",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {},
+
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
