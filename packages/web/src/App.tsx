@@ -1,14 +1,13 @@
-import React, { useEffect } from 'react';
-import { api } from '@happy/shared'
+import React from 'react';
+import Routes from './routes';
+
+import './styles/global.css';
 
 const App: React.FC = () => {
-  useEffect(() => {
-    api.get('/').then(response => {
-      console.log(response)
-    })
-  }, [])
 
-  return <h1>Hello World</h1>
+  return (
+    <Routes />
+  )
 }
 
 export default App
